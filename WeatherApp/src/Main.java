@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Welcome to ☁️ The Java Weather App ☀️");
         sleep(2000);
 
-        System.out.println("Enter a City and Receive Real Time Weather Data. ");
+        System.out.println("Enter a City and Receive Real-Time Weather Data. ");
         sleep(2000);
 
         System.out.println("Fetching Real-Time Weather Data...");
