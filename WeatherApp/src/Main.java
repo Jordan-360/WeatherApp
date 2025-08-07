@@ -15,8 +15,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        System.out.println("(Warning: Data given may be off by a few degrees due to API refresh times!)");
-        System.out.println();
+        System.out.println("Welcome to ☁️ The Java Weather App ☀️");
+        sleep(2000);
+
+        System.out.println("Enter a City and Receive Real Time Weather Data. ");
+        sleep(2000);
+
+        System.out.println("Fetching Real-Time Weather Data...");
+        sleep(2000);
+
+        System.out.println("Please Wait...");
+        sleep(2000);
+
+        System.out.println("Ready to Begin!");
 
         try {
             String city;
@@ -213,4 +224,11 @@ public class Main {
         return null;
     }
 
+     public static void sleep(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
 }
